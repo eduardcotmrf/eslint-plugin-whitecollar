@@ -3,7 +3,7 @@ module.exports = {
 	  recommended: {
 		plugins: ['whitecollar'],
 		rules: {
-		  "no-get-balcon": "error"
+		  "whitecollar/no-get-balcon": "error"
 		}
 	  }
 	},
