@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-whitecollar",
+  "version": "1.0.0",
+  "description": "whitecollar plugin rules",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardcotmrf/eslint-plugin-whitecollar"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Marfeel",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "~2.6.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.3"
+  }
+}
