@@ -13,7 +13,7 @@
   "author": "Marfeel",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "~2.6.0"
+    "eslint": "~4.18.2"
   },
   "dependencies": {
     "babel-eslint": "^10.0.3"
