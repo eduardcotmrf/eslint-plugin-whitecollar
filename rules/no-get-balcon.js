@@ -11,7 +11,8 @@ module.exports = {
 		return {
 			"CallExpression": function(node) {
 				var callee = node.callee;
-				if(callee.object.name === "WC" &&
+				if(!!callee.object &&
+					callee.object.name === "WC" &&
                 	callee.property.name === "getBalcon") {
                     context.report(node, "WC.getBalcon is disallowed. Please use getContentGroup API");
             }
